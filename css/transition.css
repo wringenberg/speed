@@ -38,10 +38,15 @@
 
 
 .page__style .page__description {
-  color: #fff;
+  color: #000;
   font-weight: 300;
   text-align: center;
 }
+
+#photo {
+  color: white;
+}
+
 .page__style h1 {
   font-weight: 300;
   margin-top: 50px;
