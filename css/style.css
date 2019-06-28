@@ -1,0 +1,328 @@
+/* Top Navigation - Home */
+.topnav {
+  overflow: hidden;
+  background-color: #0cc0dc;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  word-spacing: 3px;
+}
+
+.topnav a.icon {
+  float: right;
+  font-size: 20px;
+}
+
+#navicon {
+  color: #000;
+}
+
+#nav {
+  color: #000;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.active:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+#active {
+  background-color: #000;
+  color: #fff;
+}
+
+#active:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* CORE */
+.container {
+  position: relative;
+  margin: auto;
+  overflow: auto;
+}
+
+.center {
+  margin: auto;
+  width: 40%;
+}
+
+#image {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  margin:auto;
+  width: 40%;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#description {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* photography */
+#photography button {
+  background-color: #0cc0dc;
+  color: #000;
+  -webkit-transition: .5s ease;
+}
+
+#photography button:hover {
+  background-color: #0dd0ef;
+}
+
+/* HOME */
+#home button {
+  padding: 7px 15px;
+  width: 750px;
+  height: 350px;
+  font-size: 18px;
+  -webkit-transition: .5s ease;
+}
+
+#home button:hover {
+  width: 1000px;
+  height: 400px;
+  color: black;
+  font-size: 25px;
+}
+
+#pho:hover {
+  background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1981_3_51.jpg");
+  padding-top: 300px;
+  padding-right: 30px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+#anc:hover {
+  background-image: url("../images/gogh/1929_17_306_ab.jpg");
+  padding-bottom: 300px;
+  padding-right: 500px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+#afr:hover {
+  background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/2010_1_4a_v2.jpg");
+  padding-bottom: 370px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+#nat:hover {
+  background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1937_68_11.jpg");
+  padding-top: 300px;
+  padding-left: 500px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+#eur:hover {
+  background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1972_2_11.jpg");
+  padding-top: 300px;
+  padding-right: 500px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+#ken:hover {
+  background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/2004_23_v21.jpg");
+  padding-bottom: 300px;
+  padding-right: 500px;
+  font-weight:1000;
+  -webkit-transition: .5s ease;
+}
+
+@media only screen and (max-width: 767px) {
+  #home button {
+    width: 400px;
+    height: 150px;
+  }
+
+  #home button:hover {
+    width: 500px;
+    height: 250px;
+  }
+
+  #pho:hover {
+    padding-top: 200px;
+    padding-left: 280px;
+    padding-right: 0;
+  }
+
+  #anc:hover {
+    padding-bottom: 200px;
+    padding-right: 280px;
+  }
+
+  #afr:hover {
+    padding-bottom: 200px;
+    padding-right: 300px;
+  }
+
+  #nat:hover {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 200px;
+    padding-right: 300px;
+  }
+
+  #eur:hover {
+    padding-top: 25px;
+    padding-right: 340px;
+  }
+
+  #ken:hover {
+    padding-bottom: 200px;
+    padding-right: 300px;
+  }
+
+  .topnav a {
+    font-size: 12px;
+    padding: 7px 8px;
+  }
+
+  #navicon {
+    font-size: 13px;
+  }
+}
+
+/* Google Fonts */
+h1, h2, h3, h4 th {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* Heading Colors */
+#home h1,
+#home h2,
+#ancient h1,
+#african h1,
+#kentucky h1,
+#native h1,
+#photography h1,
+#euro h1 {
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+}
+
+/* Sticky Nav */
+#stickynav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 20px;
+  z-index: 20;
+}
+
+/* MAP.HTML */
+.street-responsive {
+    overflow:hidden;
+    padding-bottom:35.25%;
+    position:relative;
+}
+.street-responsive iframe {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width:70%;
+    position:absolute;
+}
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:35.25%;
+    position:relative;
+}
+.map-responsive iframe {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width:70%;
+    position:absolute;
+}
+
+.img-responsive {
+    overflow:hidden;
+    padding-bottom:35.25%;
+    position:relative;
+}
+.img-responsive img {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width:70%;
+    position:absolute;
+}
