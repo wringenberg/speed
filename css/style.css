@@ -130,7 +130,8 @@
   -webkit-transition: .5s ease;
 }
 
-#home button:hover, button.hover_effect {
+#home button:hover,
+#home button.hover_effect {
   width: 1000px;
   height: 400px;
   color: black;
@@ -190,7 +191,8 @@
     height: 150px;
   }
 
-  #home button:hover, button.hover_effect {
+  #home button:hover,
+  #home button.hover_effect {
     width: 500px;
     height: 250px;
   }
@@ -315,4 +317,56 @@ h2 {
     margin:auto;
     width:70%;
     position:absolute;
+}
+
+/* Membership */
+
+.member {
+  font-size: 17px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+ul li {
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.collapsible {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: grey;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  margin: 5px 0 5px 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
