@@ -31,7 +31,7 @@
   color: #000;
 }
 
-.topnav a:hover {
+.topnav a:hover, a.hover_effect {
   background-color: #ddd;
   color: #000;
 }
@@ -41,7 +41,7 @@
   color: #fff;
 }
 
-.active:hover {
+.active:hover, .active.hover_effect {
   background-color: #ddd;
   color: #000;
 }
@@ -51,7 +51,7 @@
   color: #fff;
 }
 
-#active:hover {
+#active:hover, #active.hover_effect {
   background-color: #ddd;
   color: #000;
 }
@@ -117,7 +117,7 @@
   -webkit-transition: .5s ease;
 }
 
-#photography button:hover {
+#photography button:hover, button.hover_effect {
   background-color: #0dd0ef;
 }
 
@@ -130,14 +130,14 @@
   -webkit-transition: .5s ease;
 }
 
-#home button:hover {
+#home button:hover, button.hover_effect {
   width: 1000px;
   height: 400px;
   color: black;
   font-size: 25px;
 }
 
-#pho:hover {
+#pho:hover, #pho.hover_effect {
   background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1981_3_51.jpg");
   padding-top: 300px;
   padding-right: 30px;
@@ -145,7 +145,7 @@
   -webkit-transition: .5s ease;
 }
 
-#anc:hover {
+#anc:hover, #anc.hover_effect {
   background-image: url("../images/gogh/1929_17_306_ab.jpg");
   padding-bottom: 300px;
   padding-right: 500px;
@@ -153,14 +153,14 @@
   -webkit-transition: .5s ease;
 }
 
-#afr:hover {
+#afr:hover, #afr.hover_effect {
   background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/2010_1_4a_v2.jpg");
   padding-bottom: 370px;
   font-weight:1000;
   -webkit-transition: .5s ease;
 }
 
-#nat:hover {
+#nat:hover, #nat.hover_effect {
   background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1937_68_11.jpg");
   padding-top: 300px;
   padding-left: 500px;
@@ -168,7 +168,7 @@
   -webkit-transition: .5s ease;
 }
 
-#eur:hover {
+#eur:hover, #eur.hover_effect {
   background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/1972_2_11.jpg");
   padding-top: 300px;
   padding-right: 500px;
@@ -176,7 +176,7 @@
   -webkit-transition: .5s ease;
 }
 
-#ken:hover {
+#ken:hover, #ken.hover_effect {
   background-image: url("https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/2004_23_v21.jpg");
   padding-bottom: 300px;
   padding-right: 500px;
@@ -190,40 +190,40 @@
     height: 150px;
   }
 
-  #home button:hover {
+  #home button:hover, button.hover_effect {
     width: 500px;
     height: 250px;
   }
 
-  #pho:hover {
+  #pho:hover, #pho.hover_effect {
     padding-top: 200px;
     padding-left: 280px;
     padding-right: 0;
   }
 
-  #anc:hover {
+  #anc:hover, #anc.hover_effect {
     padding-bottom: 200px;
     padding-right: 280px;
   }
 
-  #afr:hover {
+  #afr:hover, #afr.hover_effect {
     padding-bottom: 200px;
     padding-right: 300px;
   }
 
-  #nat:hover {
+  #nat:hover, #nat.hover_effect {
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 200px;
     padding-right: 300px;
   }
 
-  #eur:hover {
+  #eur:hover, #eur.hover_effect {
     padding-top: 25px;
     padding-right: 340px;
   }
 
-  #ken:hover {
+  #ken:hover, #ken.hover_effect {
     padding-bottom: 200px;
     padding-right: 300px;
   }
@@ -236,6 +236,11 @@
   #navicon {
     font-size: 13px;
   }
+}
+
+.hover {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 /* Google Fonts */
@@ -312,12 +317,12 @@ h2 {
     position:absolute;
 }
 
-.img-responsive {
+#img-responsive {
     overflow:hidden;
     padding-bottom:35.25%;
     position:relative;
 }
-.img-responsive img {
+#img-responsive img {
     top: 0;
     bottom: 0;
     left: 0;

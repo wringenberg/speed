@@ -71,9 +71,9 @@
 
         <br>
 
-        <div class="img-responsive">
+        <div id="img-responsive" class="img-magnifier-container">
           <a href="https://42l9x93l42oi2vqtshg3va1s-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Speed-Art-Museum-English-Map.pdf" alt="map" target="_blank">
-            <img src="images/0001.jpg" width="1200" height="600" alt="map">
+            <img src="images/0001.jpg" width="1200" height="600" alt="map" id="myimage">
           </a>
         </div>
 
@@ -95,6 +95,13 @@
         x.style.transition = "0.5s";
       }
     }
+
+    $(document).ready(function() {
+      $('.hover').on('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+      });
+    });
   </script>
 </body>
 
