@@ -316,18 +316,3 @@ h2 {
     width:70%;
     position:absolute;
 }
-
-#img-responsive {
-    overflow:hidden;
-    padding-bottom:35.25%;
-    position:relative;
-}
-#img-responsive img {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin:auto;
-    width:70%;
-    position:absolute;
-}
