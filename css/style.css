@@ -36,22 +36,22 @@
   color: #000;
 }
 
-.active {
+.activelink {
   background-color: #000;
   color: #fff;
 }
 
-.active:hover, .active.hover_effect {
+.activelink:hover, .activelink.hover_effect {
   background-color: #ddd;
   color: #000;
 }
 
-#active {
+#activelink {
   background-color: #000;
   color: #fff;
 }
 
-#active:hover, #active.hover_effect {
+#activelink:hover, #activelink.hover_effect {
   background-color: #ddd;
   color: #000;
 }
