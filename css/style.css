@@ -332,6 +332,7 @@ ul li {
   font-style: italic;
   line-height: 1.5em;
   text-align: left;
+  margin-left: 20px;
 }
 
 .collapsible {
@@ -347,7 +348,8 @@ ul li {
 }
 
 .active, .collapsible:hover {
-  background-color: grey;
+  background-color: #bfbfbf;
+  color: #000;
 }
 
 .collapsible:after {
@@ -369,4 +371,69 @@ ul li {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
+}
+
+.membership {
+  font-size: 13px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.restrictions {
+  font-size: 10px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.benefit {
+  font-size: 13px;
+  line-height: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#join {
+  width: 250px;
+  height: 50px;
+  background-color:#000;
+  color: #fff;
+  border: none;
+}
+
+#join:hover, #join.hover_effect {
+  background-color: #bfbfbf;
+  color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .member {
+    font-size: 15px;
+  }
+
+  .membership {
+    font-size: 11px;
+    overflow: auto;
+  }
+
+  .restrictions {
+    font-size: 8px;
+    overflow: auto;
+  }
+
+  h4 {
+    font-size: 14px;
+    overflow: auto;
+  }
+
+  .benefit {
+    font-size: 11px;
+    overflow: auto;
+  }
+
+  #join {
+    width: 150px;
+    height: 50px;
+  }
+
 }
