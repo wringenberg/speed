@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="images/speed_logo.png" />
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/transition.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- HOME -->
+  <div class="page__style home">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="contact.html" id="activelink" onclick="window.close()">&larr; Back to Contact Page</a>
+    </div>
+
+    <div class="page__description">
+      <div id="home">
+
+        <h1>Thank you for your time!</h1>
+
+        <br>
+
+        <h2>We will get back in touch with you as soon as possible!</h2>
+
+        <br><br>
+
+        <h3>Be sure to also come see us, as we are adding new additions to our museum every week!</h3>
+
+        <br>
+        <br>
+
+        <div class="center">
+          <h4><i>The Speed Art Museum<br>
+          2035 South 3rd St<br>
+          Louisville, KY 40208</i></h4>
+        </div>
+
+        <br>
+        <br>
+
+        <h4>Call us anytime for more information about Opening Hours and special events:</h4>
+
+        <br>
+        <br>
+
+        <div class="center">
+          <h4><i>Main: 502.634.2700<br>
+          Security: 502.634.2712</i></h4>
+        </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+        x.style.transition = "0.5s";
+      }
+    }
+
+    $(document).ready(function() {
+      $('.hover').on('touchstart touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+      });
+    });
+  </script>
+</body>
+
+</html>

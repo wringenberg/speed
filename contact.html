@@ -3,14 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Speed Museum Map</title>
+  <title>Contact Us</title>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/x-icon" href="images/speed_logo.png" />
 
-  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/transition.css" rel="stylesheet">
 
@@ -27,11 +26,11 @@
   <div class="page__style home">
     <!-- Top Navigation Menu -->
     <div class="topnav">
-      <a href="map.html" id="activelink">Speed Museum Map</a>
+      <a href="contact.html" id="activelink">Contact Us</a>
       <div id="myLinks">
+        <a href="map.html" id="nav">Speed Museum Map</a>
         <a href="index.html" id="nav">Speed Tour</a>
         <a href="membership.html" id="nav">Membership</a>
-        <a href="contact.html" id="nav">Contact Us</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars" id="navicon"></i>
@@ -41,43 +40,61 @@
     <div class="page__description">
       <div id="home">
 
-        <h1>Speed Museum Map</h1>
+        <h1>CONTACT US</h1>
 
         <br>
 
-        <h2>Street View&colon;</h2>
+        <h2>Have an idea for a possible future exhibit, or interested in purchasing an art piece?</h2>
 
         <br>
 
-        <div class="street-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!4v1561734530133!6m8!1m7!1sCAoSLEFGMVFpcE5mamlWakFoZDZwQXJnX3hKYUJNblJpSUdXMXRXNVExckFRcEpF!2m2!1d38.21846059173645!2d-85.7608263194561!3f239.94036126230418!4f-2.671077040536943!5f0.7820865974627469"
-          width="1200" height="600" frameborder="0" allowfullscreen></iframe>
+        <h2>Interested in volunteering at The Speed? Looking to possibly become a member?</h2>
+
+        <br>
+
+        <h3>Please complete this form with your information, as well as a description of what you would like to contact us for.<br>
+                     We will respond as soon as possible.</h3>
+
+        <br>
+
+        <div class="center">
+
+          <form action="mailto:wringenberg@speedmuseum.org" method="post" enctype="text/plain">
+
+            First Name:
+            <input type="text" name="First Name " placeholder="First Name">
+
+            Last Name:
+            <input type="text" name="Last Name " placeholder="Last Name">
+
+            Email Address:
+            <input type="text" name="E-mail " placeholder="E-Mail Address">
+
+            Category:
+            <select name="Category " />
+              <option value=" Select One">Select a Category...</option>
+              <option value=" Facilities">Facility Rental</option>
+              <option value=" School Programs">School Programs</option>
+              <option value=" Volunteers">Volunteers</option>
+              <option value=" Curatorials">Curatorial</option>
+              <option value=" Image Permissions">Image Permissions</option>
+              <option value=" Membership">Membership</option>
+            </select>
+
+            Description:
+            <textarea name="Information " placeholder="How can we help you?" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit" onclick="window.open('thankyou.html')">
+
+          </form>
+
+          <br>
+
         </div>
-
-        <br>
-
-        <h2>Map View&colon;</h2>
-
-        <br>
-
-        <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.941382021742!2d-85.76123520155922!3d38.21768125829145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d67351e6629%3A0xe1ab758d0e55eb58!2sThe+Speed+Art+Museum!5e0!3m2!1sen!2sus!4v1561735534679!5m2!1sen!2sus"
-          width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-
-        <br>
-
-        <h2>Museum Map &lpar;Click "i" Icons for More Info&rpar;&colon;</h2>
-
-        <br>
-
-        <div class="map-responsive">
-          <iframe frameborder="0" width="1200px" height="600px" src="https://view.genial.ly/5d1a1faa98455a0fa7d3876e" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
-        </div>
-
-      </div>
     </div>
   </div>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/script.js"></script>
