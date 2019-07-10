@@ -124,6 +124,30 @@
 .photography {
   background: #000;
 }
+/* Euro13 */
+.euro13 {
+  background: #a83a8b;
+}
+/* Euro17 */
+.euro17 {
+  background: #bad644;
+}
+/* Euro18 */
+.euro18 {
+  background: #ef59a1;
+}
+/* Euro19 */
+.euro19 {
+  background: #ffcb06;
+}
+/* Euro45 */
+.euro45 {
+  background: #35c7e0;
+}
+/* Dutch */
+.dutch {
+  background: #f69319;
+}
 /*****************************************************************
 ~ Mobile media-queries (max-width: 767px)
 ******************************************************************/

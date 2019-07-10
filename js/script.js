@@ -56,3 +56,39 @@ $('.kentucky_link').click(function() {
     $('.kentucky').addClass('fadeIn');
   }, 1500);
 });
+
+$('.euro13_link').click(function() {
+  setTimeout(function() {
+    $('.euro13').addClass('fadeIn');
+  }, 1500);
+});
+
+$('.euro17_link').click(function() {
+  setTimeout(function() {
+    $('.euro17').addClass('fadeIn');
+  }, 1500);
+});
+
+$('.euro18_link').click(function() {
+  setTimeout(function() {
+    $('.euro18').addClass('fadeIn');
+  }, 1500);
+});
+
+$('.euro19_link').click(function() {
+  setTimeout(function() {
+    $('.euro19').addClass('fadeIn');
+  }, 1500);
+});
+
+$('.euro45_link').click(function() {
+  setTimeout(function() {
+    $('.euro45').addClass('fadeIn');
+  }, 1500);
+});
+
+$('.dutch_link').click(function() {
+  setTimeout(function() {
+    $('.dutch').addClass('fadeIn');
+  }, 1500);
+});

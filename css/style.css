@@ -11,7 +11,7 @@
 
 .topnav a {
   float: left;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: none;
   font-size: 17px;
   font-weight: bold;
@@ -297,6 +297,71 @@
   }
 }
 
+/* KENTUCKY NAVS */
+
+#euro13_link,
+#euro17_link,
+#euro18_link,
+#euro19_link,
+#euro45_link,
+#dutch_link {
+  padding: 5px 10px;
+  width: 500px;
+  height: 200px;
+  font-size: 18px;
+  -webkit-transition: .5s ease;
+  background-color: #000;
+  color: #fff;
+}
+
+#euro13_link:hover,
+#euro13_link.hover_effect,
+#euro17_link:hover,
+#euro17_link.hover_effect,
+#euro18_link:hover,
+#euro18_link.hover_effect,
+#euro19_link:hover,
+#euro19_link.hover_effect,
+#euro45_link:hover,
+#euro45_link.hover_effect,
+#dutch_link:hover,
+#dutch_link.hover_effect {
+  width: 550px;
+  color: black;
+  background-color: #ccc;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  #euro13_link,
+  #euro17_link,
+  #euro18_link,
+  #euro19_link,
+  #euro45_link,
+  #dutch_link {
+    width: 300px;
+    height: 150px;
+  }
+
+  #euro13_link:hover,
+  #euro13_link.hover_effect,
+  #euro17_link:hover,
+  #euro17_link.hover_effect,
+  #euro18_link:hover,
+  #euro18_link.hover_effect,
+  #euro19_link:hover,
+  #euro19_link.hover_effect,
+  #euro45_link:hover,
+  #euro45_link.hover_effect,
+  #dutch_link:hover,
+  #dutch_link.hover_effect {
+    width: 400px;
+    height: 250px;
+  }
+
+}
+
+/* HOVER */
 .hover {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
